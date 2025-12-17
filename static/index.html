@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Public Information Search</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 AI Public Information Search</h1>
+            <p>Search public records using natural language</p>
+        </div>
+        
+        <div class="chat-container" id="chat-messages">
+            <!-- Messages will be added here dynamically -->
+        </div>
+        
+        <div class="input-container">
+            <form id="input-form" class="input-form">
+                <input 
+                    type="text" 
+                    id="user-input" 
+                    class="input-field" 
+                    placeholder="Ask me anything... (e.g., 'Find Zoe Khan', 'Whose number is 021-1234567?')"
+                    autocomplete="off"
+                >
+                <button type="submit" id="send-button" class="send-button">Send</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
+
